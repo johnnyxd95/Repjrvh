@@ -19,3 +19,83 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+
+/* header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+header nav li {
+  margin: 0 15px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+header nav a:hover {
+  color: #ffcc00;
+}
+
+/* hero section */
+.hero {
+  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* cards section */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.card p {
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  margin-top: 40px;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
